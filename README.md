@@ -96,7 +96,6 @@ The datasets used to build the knowledge base (`Knowledge/metaldata/Newmetal_dat
 - `run_report.json`
 
 ## Reproducibility Notes
-- Default seed is fixed in entry (`random.seed(0)`, plus deterministic split/CV seeds where used).
 - For fair comparison, keep identical train/test split policy and search budget (`max_iter`, `subset_size`).
 - `max_iter` recommendation:
   - Ablation setting in this project uses `max_iter=30`.
