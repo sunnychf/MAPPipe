@@ -94,5 +94,4 @@ python kamcts_main.py \
   - Ablation setting in this project uses `max_iter=30`.
   - If computation budget is sufficient, you can increase it to `40` or `50`.
   - A larger budget can still increase the risk of getting trapped in local optima.
-- Recommended dataset roots in this project: `dataset/diffprep`, `dataset/deepline`.
-- Dataset download sources and OpenML-based preparation are documented in [`dataset/README.md`](./dataset/README.md).
+- Recommended dataset roots in this project: `data/diffprep`, `data/deepline`.Dataset download sources and OpenML-based preparation are documented in [`data/README.md`](./data/README.md).
