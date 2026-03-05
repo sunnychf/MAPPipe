@@ -298,7 +298,6 @@ def process_one_task(arg):
 
 if __name__ == "__main__":
     warnings.filterwarnings("ignore")
-    # random.seed(0)
 
     parser = argparse.ArgumentParser(
         description="KAMCTS automated preprocessing: input one dataset + choose model/metric, output processed data and best pipeline"
