@@ -75,18 +75,6 @@ python kamcts_main.py \
   --output_dir output/single_run
 ```
 
-Optional knowledge overrides:
-```bash
-python kamcts_main.py \
-  --dataset_path path/to/dataset.csv \
-  --knowledge_csv Knowledge/metaldata/Newmetal_data.csv \
-  --knowledge_json_dir Knowledge/model_metric/LogisticRegression/accuracy/json
-```
-
-If not provided, MAPPipe auto-resolves:
-- metadata: `Knowledge/metaldata/Newmetal_data.csv`
-- profile json: `Knowledge/model_metric/<model>/<metric>/json`
-
 ## Input/Output
 ### Input assumptions
 - CSV tabular data.
@@ -102,15 +90,9 @@ If not provided, MAPPipe auto-resolves:
 ## Reproducibility Notes
 - Default seed is fixed in entry (`random.seed(0)`, plus deterministic split/CV seeds where used).
 - For fair comparison, keep identical train/test split policy and search budget (`max_iter`, `subset_size`).
+- `max_iter` recommendation:
+  - Ablation setting in this project uses `max_iter=30`.
+  - If computation budget is sufficient, you can increase it to `40` or `50`.
+  - A larger budget can still increase the risk of getting trapped in local optima.
 - Recommended dataset roots in this project: `dataset/diffprep`, `dataset/deepline`.
 - Dataset download sources and OpenML-based preparation are documented in [`dataset/README.md`](./dataset/README.md).
-
-## Citation
-If you use this repository in research, please cite:
-
-```bibtex
-@misc{mappipe2026,
-  title={MAPPipe: Navigating to Optimal Data Preprocessing Pipelines via Structural Pruning and Knowledge-augmented MCTS},
-  year={2026}
-}
-```
