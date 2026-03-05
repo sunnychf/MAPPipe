@@ -1,0 +1,2 @@
+n_instances,n_features,n_num_features,n_cat_features,missing_ratio,target_num_classes,feature_mean_skew,feature_mean_kurtosis,mean_feature_variance,mean_feature_correlation,mean_mutual_info,max_mutual_info,target_entropy,dataset
+785,10,2,8,0.250828025477707,4,16.998976935553877,332.14346206041535,44182.52942689545,0.12038027537462105,0.12149426785773776,0.22070372877303512,1.7582660096405083,titanic

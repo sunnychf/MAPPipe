@@ -1,0 +1,2 @@
+n_instances,n_features,n_num_features,n_cat_features,missing_ratio,target_num_classes,feature_mean_skew,feature_mean_kurtosis,mean_feature_variance,mean_feature_correlation,mean_mutual_info,max_mutual_info,target_entropy,dataset
+460,8,8,0,0.14076086956521738,2,0.606288051902019,3.398661845239398,1922.63662007093,0.17773784415268418,0.04439474164934898,0.11655479882703323,0.9434026241775055,diabetes

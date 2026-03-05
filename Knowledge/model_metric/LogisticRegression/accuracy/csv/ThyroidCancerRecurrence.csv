@@ -1,0 +1,2 @@
+n_instances,n_features,n_num_features,n_cat_features,missing_ratio,target_num_classes,feature_mean_skew,feature_mean_kurtosis,mean_feature_variance,mean_feature_correlation,mean_mutual_info,max_mutual_info,target_entropy,dataset
+229,16,1,15,0.1394650655021834,2,0.6176509456459613,-0.4914834403858661,241.89736318407958,,0.0016956870766442478,0.0016956870766442478,0.8663972305507522,ThyroidCancerRecurrence

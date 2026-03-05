@@ -1,0 +1,2 @@
+n_instances,n_features,n_num_features,n_cat_features,missing_ratio,target_num_classes,feature_mean_skew,feature_mean_kurtosis,mean_feature_variance,mean_feature_correlation,mean_mutual_info,max_mutual_info,target_entropy,dataset
+2400,16,7,9,0.20119791666666667,2,17.034406709356052,400.87755349894434,44240715.51679852,0.027365872840958372,0.016576785141886954,0.0417815455691366,0.5376870218412506,BankMarketingSmall

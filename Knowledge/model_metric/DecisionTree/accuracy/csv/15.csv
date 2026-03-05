@@ -1,0 +1,2 @@
+n_instances,n_features,n_num_features,n_cat_features,missing_ratio,target_num_classes,feature_mean_skew,feature_mean_kurtosis,mean_feature_variance,mean_feature_correlation,mean_mutual_info,max_mutual_info,target_entropy,dataset
+699,9,9,0,0.002543315848036878,2,1.47748866673108,1.6841150960407207,7.846429530897199,0.6016522235864503,0.3511886877420911,0.46687260207143155,0.9293179343644081,15

@@ -1,0 +1,2 @@
+n_instances,n_features,n_num_features,n_cat_features,missing_ratio,target_num_classes,feature_mean_skew,feature_mean_kurtosis,mean_feature_variance,mean_feature_correlation,mean_mutual_info,max_mutual_info,target_entropy,dataset
+341,30,30,0,0.13900293255131965,2,1.8437569108430103,8.547532142780666,16447.786293186877,0.3890023947765165,0.16958764005859964,0.3820673447752949,0.9629004118859368,BreastCancer
