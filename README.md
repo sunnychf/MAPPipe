@@ -14,7 +14,6 @@ It targets the core AutoML bottleneck: finding high-quality preprocessing pipeli
 - Three-stage optimization: **recommendation -> reconfiguration -> search**.
 - Structural pruning to dramatically reduce search space while preserving high-value candidates.
 - Heuristic-guided MCTS without neural surrogate models.
-- Shared meta-knowledge for cross-dataset transfer.
 
 ## Quick Start
 ### 1) Create Conda environment
